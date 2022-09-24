@@ -31,7 +31,7 @@ nav ul li {
     margin: 0 5px;
 }
 nav ul li a{
-    color: aliceblue;
+    color: rgb(64, 3, 86);
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
@@ -104,6 +104,75 @@ section {
 
 }
 
-.container {
-    background: url(/);
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.heading{
+    font-size: 30px;
+}
+
+.heading, .show{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+
+.show{
+    font-size: 18px;
+    font-size: medium;
+}
+
+.buttons{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#iOS, #Mac{
+border-radius: 20px;
+border: 2px solid rgb(255, 255, 255);
+width: 200px;
+height: 50px;
+font-size: 15px;
+text-decoration: none;
+}
+
+a.btn{
+    color: white;
+    font-weight: bold;
+}
+
+.bodytext{
+    margin-top: 70px;
+    text-align: center;
+}
+
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1{
+    margin-right: 220px;
+    margin-top: 110px;
+}
+
+h4{
+    margin-top: 60px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
